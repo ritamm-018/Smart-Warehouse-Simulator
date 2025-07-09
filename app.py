@@ -4,6 +4,7 @@ from metrics import metrics_section
 from analytics import analytics_tabs
 from data_management import data_management_tab
 from reports import reports_tab
+import os
 
 
 st.set_page_config(
@@ -79,9 +80,45 @@ tab1, tab2, tab3, tab4 = st.tabs([
 with tab1:
     analytics_tabs()
 with tab2:
-    # This is a demo UI only, no RL logic is run
+    import os
+    from stable_baselines3 import DQN
+    from warehouse_env import WarehouseEnv
+
     st.subheader("Reinforcement Learning Optimization")
-    
+
+    if st.button("🚀 Optimize Layout with AI"):
+        if not os.path.exists("optimized_warehouse_model.zip"):
+            st.error("❌ Trained RL model not found. Please train and save the model as 'optimized_warehouse_model.zip' first.")
+        else:
+            with st.spinner("Running RL Optimization..."):
+                # Init environment with fixed config to match trained model
+                env = WarehouseEnv(
+                    grid_width=12,  # Fixed to match trained model
+                    grid_height=10,  # Fixed to match trained model
+                    num_orders=st.session_state['num_orders'],
+                    items_per_order=st.session_state['items_per_order']
+                )
+                model = DQN.load("optimized_warehouse_model", env=env)
+
+                obs = env.reset()[0]
+                for _ in range(10):  # 10 steps of improvement
+                    action, _ = model.predict(obs, deterministic=True)
+                    obs, reward, terminated, truncated, info = env.step(action)
+                    if terminated or truncated:
+                        break
+
+                # Extract optimized layout from environment
+                optimized_layout = {
+                    'grid_width': st.session_state['grid_width'],
+                    'grid_height': st.session_state['grid_height'],
+                    'num_pickers': st.session_state['num_pickers'],
+                    'layout_type': st.session_state.get('layout_type', 'Grid Layout'),
+                    'shelves': [{'x': x, 'y': y} for (x, y) in env.shelves],
+                    'stations': [{'x': 2, 'y': 0}, {'x': 8, 'y': 0}]  # Default stations
+                }
+
+                st.session_state['layout_config'] = optimized_layout
+                st.success("✅ Layout optimized using AI!")
 with tab3:
     data_management_tab()
 with tab4:

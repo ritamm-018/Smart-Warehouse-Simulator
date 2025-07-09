@@ -39,6 +39,17 @@ def data_management_tab():
                 file_name=f"warehouse_layout_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
                 mime="application/json"
             )
+        # Export Optimized Layout
+        if 'layout_config' in st.session_state and st.session_state['layout_config']:
+            if st.button("💾 Export Optimized Layout"):
+                layout_config = st.session_state['layout_config']
+                json_str = json.dumps(layout_config, indent=2)
+                st.download_button(
+                    label="Download Optimized Layout (.json)",
+                    data=json_str,
+                    file_name=f"optimized_layout_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
+                    mime="application/json"
+                )
     with col_d2:
         st.write("**Import Data**")
         uploaded_orders = st.session_state['uploaded_orders']
@@ -50,7 +61,24 @@ def data_management_tab():
             if st.button("✅ Use This Orders Data"):
                 st.session_state.orders_data = df_orders
                 st.success("Orders data loaded successfully!")
-        if uploaded_layout:
+        # Import Optimized Layout
+        uploaded_opt_layout = st.file_uploader(
+            "Upload Optimized Layout (.json)",
+            type=['json'],
+            help="Upload a JSON file exported from the optimizer or another simulation."
+        )
+        if uploaded_opt_layout:
+            try:
+                layout_json = json.load(uploaded_opt_layout)
+                st.write("🗺️ **Optimized Layout Preview:**")
+                st.json(layout_json)
+                if st.button("✅ Use This Layout"):
+                    st.session_state.layout_config = layout_json
+                    st.session_state.uploaded_layout = uploaded_opt_layout
+                    st.success("Optimized layout loaded successfully!")
+            except Exception as e:
+                st.error(f"Invalid layout file: {e}")
+        elif uploaded_layout:
             layout_json = json.load(uploaded_layout)
             st.write("🗺️ **Layout Configuration:**")
             st.json(layout_json)

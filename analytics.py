@@ -23,11 +23,31 @@ def analytics_tabs():
     with col_p2:
         grid_height = st.session_state['grid_height']
         grid_width = st.session_state['grid_width']
-        heatmap_data = np.random.rand(grid_height, grid_width)
-        fig_heatmap = px.imshow(
-            heatmap_data,
-            title="Warehouse Activity Heatmap",
-            labels=dict(x="X Position", y="Y Position", color="Activity Level"),
-            color_continuous_scale="Viridis"
-        )
-        st.plotly_chart(fig_heatmap, use_container_width=True)
+        activity_map = None
+        if (
+            'simulation_results' in st.session_state and
+            st.session_state['simulation_results'] and
+            'activity_map' in st.session_state['simulation_results'] and
+            st.session_state['simulation_results']['activity_map']
+        ):
+            activity_map = np.array(st.session_state['simulation_results']['activity_map'])
+        if activity_map is not None and activity_map.size > 0:
+            fig_heatmap = px.imshow(
+                activity_map,
+                color_continuous_scale="Viridis",
+                title="Warehouse Traffic Heatmap",
+                labels={"x": "X Position", "y": "Y Position", "color": "Visit Frequency"}
+            )
+            fig_heatmap.update_xaxes(title_text="X Position")
+            fig_heatmap.update_yaxes(title_text="Y Position")
+            st.plotly_chart(fig_heatmap, use_container_width=True)
+        else:
+            st.warning("No activity map data available. Run a simulation to see warehouse traffic heatmap.")
+            blank_map = np.zeros((grid_height, grid_width))
+            fig_blank = px.imshow(
+                blank_map,
+                color_continuous_scale="Viridis",
+                title="Warehouse Traffic Heatmap",
+                labels={"x": "X Position", "y": "Y Position", "color": "Visit Frequency"}
+            )
+            st.plotly_chart(fig_blank, use_container_width=True)
