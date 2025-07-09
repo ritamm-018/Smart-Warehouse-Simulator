@@ -1,4 +1,5 @@
 import streamlit as st
+from custom_layout_builder import custom_layout_builder
 
 def sidebar_config():
     st.sidebar.header("Configuration")
@@ -9,11 +10,22 @@ def sidebar_config():
     )
     st.session_state['grid_width'] = st.sidebar.slider("Grid Width", 5, 20, 12)
     st.session_state['grid_height'] = st.sidebar.slider("Grid Height", 5, 20, 8)
-    st.session_state['uploaded_layout'] = st.sidebar.file_uploader(
-        "Upload Custom Layout (JSON)",
-        type=['json'],
-        help="Upload a JSON file with shelf and station positions"
-    )
+    
+    # Show custom layout builder when Custom Layout is selected
+    if st.session_state['layout_type'] == "Custom Layout":
+        st.sidebar.markdown("---")
+        st.sidebar.markdown("### 🏗️ Custom Layout Builder")
+        if st.sidebar.button("🔧 Open Layout Builder"):
+            st.session_state['show_layout_builder'] = True
+        
+        # Fallback file uploader
+        st.session_state['uploaded_layout'] = st.sidebar.file_uploader(
+            "Or Upload Custom Layout (JSON)",
+            type=['json'],
+            help="Upload a JSON file with shelf and station positions"
+        )
+    else:
+        st.session_state['uploaded_layout'] = None
     st.sidebar.subheader("Agent Settings")
     st.session_state['num_pickers'] = st.sidebar.slider("Number of Pickers", 1, 10, 3)
     st.session_state['picker_speed'] = st.sidebar.select_slider(

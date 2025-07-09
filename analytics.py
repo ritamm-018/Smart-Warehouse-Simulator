@@ -2,24 +2,72 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
+import time
 
 def analytics_tabs():
+    # Check if simulation is completed - only refresh if not completed
+    simulation_completed = st.session_state.get('simulation_completed', False)
+    
+    # Get current timestamp to force updates
+    current_timestamp = time.time()
+    
     st.subheader("Performance Analytics Dashboard")
     col_p1, col_p2 = st.columns(2)
     with col_p1:
-        time_data = pd.DataFrame({
-            'Time': range(1, 21),
-            'Pick_Time': np.random.uniform(40, 80, 20),
-            'Distance': np.random.uniform(50, 150, 20)
+        # Get real-time metrics from session state
+        realtime_metrics = st.session_state.get('realtime_metrics', {
+            'average_pick_time': 60.0,
+            'orders_completed': 0,
+            'total_distance': 0.0
         })
+        
+        # Create time series data based on real-time metrics
+        if 'analytics_history' not in st.session_state:
+            st.session_state.analytics_history = {
+                'distance': [],
+                'pick_time': []
+            }
+        
+        # Only add current values to history if simulation is not completed
+        if not simulation_completed:
+            st.session_state.analytics_history['distance'].append(realtime_metrics['total_distance'])
+            st.session_state.analytics_history['pick_time'].append(realtime_metrics['average_pick_time'])
+            
+            # Keep only last 20 data points for better visualization
+            if len(st.session_state.analytics_history['distance']) > 20:
+                st.session_state.analytics_history['distance'] = st.session_state.analytics_history['distance'][-20:]
+                st.session_state.analytics_history['pick_time'] = st.session_state.analytics_history['pick_time'][-20:]
+        
+        # Create DataFrame for plotting
+        time_data = pd.DataFrame({
+            'Distance': st.session_state.analytics_history['distance'],
+            'Pick_Time': st.session_state.analytics_history['pick_time']
+        })
+        
+        # Create single line graph with distance vs pick time
         fig_performance = px.line(
             time_data,
-            x='Time',
-            y=['Pick_Time', 'Distance'],
-            title="Performance Over Time",
-            labels={'value': 'Value', 'variable': 'Metric'}
+            x='Distance',
+            y='Pick_Time',
+            title=f"Pick Time vs Distance (Live) - Updated: {current_timestamp:.0f}",
+            labels={'Distance': 'Distance (m)', 'Pick_Time': 'Pick Time (s)'}
         )
+        
+        # Set maximum y-axis value to 100
+        fig_performance.update_layout(
+            yaxis=dict(range=[0, 100]),
+            xaxis=dict(title="Distance (m)"),
+            yaxis_title="Pick Time (s)"
+        )
+        
         st.plotly_chart(fig_performance, use_container_width=True)
+        
+        # Show current values for debugging
+        if st.checkbox("Show Debug Info"):
+            st.write(f"Current Pick Time: {realtime_metrics['average_pick_time']:.1f}")
+            st.write(f"Current Distance: {realtime_metrics['total_distance']:.0f}")
+            st.write(f"History Length: {len(st.session_state.analytics_history['distance'])}")
+            st.write(f"Simulation Completed: {simulation_completed}")
     with col_p2:
         grid_height = st.session_state['grid_height']
         grid_width = st.session_state['grid_width']

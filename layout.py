@@ -93,6 +93,40 @@ def create_u_shape_layout(grid_width, grid_height):
     return layout_data
 
 def create_custom_layout(uploaded_layout, grid_width, grid_height):
+    # Check if we have a custom layout from the builder
+    if 'layout_config' in st.session_state and st.session_state['layout_config']:
+        layout_config = st.session_state['layout_config']
+        if layout_config.get('layout_type') == 'Custom Layout':
+            layout_data = []
+            
+            # Create empty grid
+            for i in range(grid_height):
+                for j in range(grid_width):
+                    layout_data.append({
+                        'x': j, 'y': i, 'type': "Empty", 'color': "white", 'symbol': "square"
+                    })
+            
+            # Add shelves
+            for shelf in layout_config.get('shelves', []):
+                idx = shelf['y'] * grid_width + shelf['x']
+                if 0 <= idx < len(layout_data):
+                    layout_data[idx].update({'type': "Shelf", 'color': "brown", 'symbol': "square"})
+            
+            # Add packing stations
+            for station in layout_config.get('stations', []):
+                idx = station['y'] * grid_width + station['x']
+                if 0 <= idx < len(layout_data):
+                    layout_data[idx].update({'type': "Packing Station", 'color': "green", 'symbol': "diamond"})
+            
+            # Add entry/exit point
+            for entry in layout_config.get('entry_exit', []):
+                idx = entry['y'] * grid_width + entry['x']
+                if 0 <= idx < len(layout_data):
+                    layout_data[idx].update({'type': "Entry/Exit", 'color': "blue", 'symbol': "circle"})
+            
+            return layout_data
+    
+    # Fallback to uploaded JSON file
     if uploaded_layout is not None:
         try:
             layout_json = json.load(uploaded_layout)
