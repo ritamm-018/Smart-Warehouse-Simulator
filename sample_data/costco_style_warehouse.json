@@ -1,0 +1,1130 @@
+{
+  "name": "Costco Wholesale Warehouse",
+  "description": "Bulk wholesale warehouse with large item storage",
+  "grid_width": 22,
+  "grid_height": 16,
+  "layout_type": "Costco Style",
+  "shelves": [
+    {
+      "x": 2,
+      "y": 2,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 107,
+      "bulk_storage": true
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 89,
+      "bulk_storage": true
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 238,
+      "bulk_storage": true
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 172,
+      "bulk_storage": true
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 163,
+      "bulk_storage": true
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 78,
+      "bulk_storage": true
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 66,
+      "bulk_storage": true
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 186,
+      "bulk_storage": true
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 143,
+      "bulk_storage": true
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 77,
+      "bulk_storage": true
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 215,
+      "bulk_storage": true
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 107,
+      "bulk_storage": true
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 230,
+      "bulk_storage": true
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 82,
+      "bulk_storage": true
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 120,
+      "bulk_storage": true
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 134,
+      "bulk_storage": true
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 166,
+      "bulk_storage": true
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 134,
+      "bulk_storage": true
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 241,
+      "bulk_storage": true
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 61,
+      "bulk_storage": true
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 102,
+      "bulk_storage": true
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 192,
+      "bulk_storage": true
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 142,
+      "bulk_storage": true
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 74,
+      "bulk_storage": true
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 197,
+      "bulk_storage": true
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 199,
+      "bulk_storage": true
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 228,
+      "bulk_storage": true
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 60,
+      "bulk_storage": true
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 188,
+      "bulk_storage": true
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 108,
+      "bulk_storage": true
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 162,
+      "bulk_storage": true
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 184,
+      "bulk_storage": true
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 95,
+      "bulk_storage": true
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 210,
+      "bulk_storage": true
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 103,
+      "bulk_storage": true
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 114,
+      "bulk_storage": true
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 126,
+      "bulk_storage": true
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 111,
+      "bulk_storage": true
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 237,
+      "bulk_storage": true
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 180,
+      "bulk_storage": true
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 241,
+      "bulk_storage": true
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 119,
+      "bulk_storage": true
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 174,
+      "bulk_storage": true
+    },
+    {
+      "x": 9,
+      "y": 3,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 86,
+      "bulk_storage": true
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 97,
+      "bulk_storage": true
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 106,
+      "bulk_storage": true
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 81,
+      "bulk_storage": true
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "zone": "bulk_goods",
+      "capacity": 300,
+      "current_items": 172,
+      "bulk_storage": true
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 59,
+      "bulk_storage": false
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 64,
+      "bulk_storage": false
+    },
+    {
+      "x": 12,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 100,
+      "bulk_storage": false
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 52,
+      "bulk_storage": false
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 84,
+      "bulk_storage": false
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 103,
+      "bulk_storage": false
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 30,
+      "bulk_storage": false
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 34,
+      "bulk_storage": false
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 106,
+      "bulk_storage": false
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 65,
+      "bulk_storage": false
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 104,
+      "bulk_storage": false
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 104,
+      "bulk_storage": false
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 105,
+      "bulk_storage": false
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 44,
+      "bulk_storage": false
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 47,
+      "bulk_storage": false
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 73,
+      "bulk_storage": false
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 54,
+      "bulk_storage": false
+    },
+    {
+      "x": 16,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 75,
+      "bulk_storage": false
+    },
+    {
+      "x": 16,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 97,
+      "bulk_storage": false
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 65,
+      "bulk_storage": false
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 81,
+      "bulk_storage": false
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 41,
+      "bulk_storage": false
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 102,
+      "bulk_storage": false
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 150,
+      "current_items": 57,
+      "bulk_storage": false
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 56,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 139,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 2,
+      "y": 11,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 76,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 2,
+      "y": 12,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 167,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 58,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 96,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 95,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 91,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 86,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 141,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 124,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 69,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 122,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 102,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 5,
+      "y": 11,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 145,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 5,
+      "y": 12,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 88,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 90,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 87,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 6,
+      "y": 11,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 132,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 6,
+      "y": 12,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 52,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 63,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 73,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 7,
+      "y": 11,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 81,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 98,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 60,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 115,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 53,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 149,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 146,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 141,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 9,
+      "y": 11,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 47,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 9,
+      "y": 12,
+      "zone": "food",
+      "capacity": 200,
+      "current_items": 169,
+      "bulk_storage": true,
+      "refrigerated": true
+    },
+    {
+      "x": 12,
+      "y": 7,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 45,
+      "bulk_storage": false
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 58,
+      "bulk_storage": false
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 38,
+      "bulk_storage": false
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 66,
+      "bulk_storage": false
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 56,
+      "bulk_storage": false
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 89,
+      "bulk_storage": false
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 71,
+      "bulk_storage": false
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 86,
+      "bulk_storage": false
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 62,
+      "bulk_storage": false
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 31,
+      "bulk_storage": false
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 28,
+      "bulk_storage": false
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 73,
+      "bulk_storage": false
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 90,
+      "bulk_storage": false
+    },
+    {
+      "x": 15,
+      "y": 8,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 74,
+      "bulk_storage": false
+    },
+    {
+      "x": 15,
+      "y": 9,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 26,
+      "bulk_storage": false
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 56,
+      "bulk_storage": false
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 68,
+      "bulk_storage": false
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 92,
+      "bulk_storage": false
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 96,
+      "bulk_storage": false
+    },
+    {
+      "x": 16,
+      "y": 10,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 30,
+      "bulk_storage": false
+    },
+    {
+      "x": 17,
+      "y": 7,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 83,
+      "bulk_storage": false
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 62,
+      "bulk_storage": false
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 84,
+      "bulk_storage": false
+    },
+    {
+      "x": 17,
+      "y": 10,
+      "zone": "clothing",
+      "capacity": 120,
+      "current_items": 74,
+      "bulk_storage": false
+    }
+  ],
+  "stations": [
+    {
+      "x": 4,
+      "y": 14,
+      "type": "bulk",
+      "capacity": 150
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "type": "standard",
+      "capacity": 60
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "type": "bulk",
+      "capacity": 150
+    },
+    {
+      "x": 16,
+      "y": 14,
+      "type": "express",
+      "capacity": 40
+    }
+  ],
+  "entry_exit": {
+    "x": 11,
+    "y": 15
+  },
+  "zones": {
+    "bulk_goods": {
+      "color": "#FF6B6B",
+      "items": [
+        "paper_products",
+        "cleaning_supplies",
+        "beverages"
+      ]
+    },
+    "electronics": {
+      "color": "#4ECDC4",
+      "items": [
+        "tvs",
+        "computers",
+        "appliances"
+      ]
+    },
+    "food": {
+      "color": "#45B7D1",
+      "items": [
+        "frozen_foods",
+        "dairy",
+        "meat",
+        "produce"
+      ]
+    },
+    "clothing": {
+      "color": "#96CEB4",
+      "items": [
+        "casual_wear",
+        "work_wear",
+        "seasonal"
+      ]
+    }
+  }
+}

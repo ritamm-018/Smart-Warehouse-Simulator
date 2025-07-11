@@ -1,0 +1,5 @@
+metric_name,metric_value,metric_unit,timestamp
+average_pick_time,45.2,seconds,2025-07-09 21:38:33
+total_distance,1250.5,meters,2025-07-09 21:38:33
+orders_completed,48.0,orders,2025-07-09 21:38:33
+efficiency_score,78.5,percentage,2025-07-09 21:38:33

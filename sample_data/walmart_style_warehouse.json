@@ -1,0 +1,745 @@
+{
+  "name": "Walmart Distribution Center",
+  "description": "Large-scale retail distribution center with high-volume picking",
+  "grid_width": 20,
+  "grid_height": 15,
+  "layout_type": "Walmart Style",
+  "shelves": [
+    {
+      "x": 2,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 27
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 28
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 60
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 51
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 55
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 51
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 41
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 60
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 60
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 73
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 38
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 69
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 57
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 28
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 46
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 63
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 21
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 30
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 59
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 31
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 68
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 77
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 36
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "zone": "electronics",
+      "capacity": 100,
+      "current_items": 61
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 91
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 103
+    },
+    {
+      "x": 12,
+      "y": 4,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 53
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 56
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 63
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 93
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 106
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 98
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 83
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 114
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 45
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 34
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 31
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 38
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 34
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 50
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 66
+    },
+    {
+      "x": 16,
+      "y": 3,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 79
+    },
+    {
+      "x": 16,
+      "y": 4,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 75
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 36
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 90
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 62
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 110
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "zone": "clothing",
+      "capacity": 150,
+      "current_items": 84
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 101
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 163
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 112
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 138
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 136
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 66
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 140
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 109
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 74
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 50
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 87
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 169
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 108
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 88
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 52
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 128
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 91
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 148
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 80
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 155
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 81
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 175
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 146
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "zone": "groceries",
+      "capacity": 200,
+      "current_items": 61
+    },
+    {
+      "x": 12,
+      "y": 7,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 30
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 45
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 42
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 34
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 41
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 40
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 53
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 53
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 38
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 50
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 51
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 50
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 26
+    },
+    {
+      "x": 15,
+      "y": 8,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 49
+    },
+    {
+      "x": 15,
+      "y": 9,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 54
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 23
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 19
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 36
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 28
+    },
+    {
+      "x": 16,
+      "y": 10,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 34
+    },
+    {
+      "x": 17,
+      "y": 7,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 49
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 34
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 15
+    },
+    {
+      "x": 17,
+      "y": 10,
+      "zone": "home",
+      "capacity": 80,
+      "current_items": 18
+    }
+  ],
+  "stations": [
+    {
+      "x": 3,
+      "y": 13,
+      "type": "standard",
+      "capacity": 50
+    },
+    {
+      "x": 7,
+      "y": 13,
+      "type": "express",
+      "capacity": 30
+    },
+    {
+      "x": 11,
+      "y": 13,
+      "type": "standard",
+      "capacity": 50
+    },
+    {
+      "x": 15,
+      "y": 13,
+      "type": "bulk",
+      "capacity": 100
+    }
+  ],
+  "entry_exit": {
+    "x": 10,
+    "y": 14
+  },
+  "zones": {
+    "electronics": {
+      "color": "#FF6B6B",
+      "items": [
+        "laptops",
+        "phones",
+        "tablets"
+      ]
+    },
+    "clothing": {
+      "color": "#4ECDC4",
+      "items": [
+        "shirts",
+        "pants",
+        "shoes"
+      ]
+    },
+    "groceries": {
+      "color": "#45B7D1",
+      "items": [
+        "canned_goods",
+        "frozen_foods",
+        "produce"
+      ]
+    },
+    "home": {
+      "color": "#96CEB4",
+      "items": [
+        "furniture",
+        "appliances",
+        "decor"
+      ]
+    }
+  }
+}

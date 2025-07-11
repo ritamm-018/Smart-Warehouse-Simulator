@@ -2,3 +2,8 @@ streamlit
 numpy
 plotly
 pandas
+simpy
+requests
+scikit-learn
+matplotlib
+seaborn

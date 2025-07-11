@@ -1,0 +1,2 @@
+run_id,layout_id,run_name,start_time,end_time,duration_seconds,num_pickers,num_orders,items_per_order,simulation_speed,status,created_at
+run_Grid_0a755f00_20250710_030833,Grid_0a755f00,Test Simulation,2025-07-10 03:08:33.123856,2025-07-10 03:08:33.154753,-3e-06,3,50,3,Normal,completed,2025-07-09 21:38:33

@@ -1,0 +1,4 @@
+run_id,run_name,start_time,end_time,duration_seconds,num_pickers,num_orders,status,layout_name
+run_Grid_0a755f00_20250710_030833,Test Simulation,2025-07-10 03:08:33.123856,2025-07-10 03:08:33.154753,-3e-06,3,50,completed,Test Layout
+run_Grid_0a755f00_20250710_030811,Test Simulation,2025-07-10 03:08:11.632317,,,3,50,running,Test Layout
+run_Grid_0a755f00_20250710_030737,Test Simulation,2025-07-10 03:07:37.411352,2025-07-10 03:07:37.431312,-4e-06,3,50,completed,Test Layout

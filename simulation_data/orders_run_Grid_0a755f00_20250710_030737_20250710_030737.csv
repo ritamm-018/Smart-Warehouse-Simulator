@@ -1,0 +1,5 @@
+order_id,run_id,order_timestamp,status,total_items,estimated_pick_time,actual_pick_time,priority,zone,shelf_x,shelf_y,item_type,quantity,created_at
+ORD001,run_Grid_0a755f00_20250710_030737,2025-07-10 03:07:37.417462,pending,3,120.5,,1,,,,,,2025-07-09 21:37:37
+ORD001_ITEM001,run_Grid_0a755f00_20250710_030737,2025-07-10 03:07:37.417462,item,1,120.5,,1,A,3.0,3.0,Electronics,1.0,2025-07-09 21:37:37
+ORD002,run_Grid_0a755f00_20250710_030737,2025-07-10 03:07:37.417468,completed,2,85.2,,2,,,,,,2025-07-09 21:37:37
+ORD002_ITEM002,run_Grid_0a755f00_20250710_030737,2025-07-10 03:07:37.417468,item,1,85.2,,2,B,5.0,3.0,Clothing,2.0,2025-07-09 21:37:37

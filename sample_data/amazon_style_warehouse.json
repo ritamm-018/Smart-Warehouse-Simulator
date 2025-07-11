@@ -1,0 +1,841 @@
+{
+  "name": "Amazon Fulfillment Center",
+  "description": "High-tech fulfillment center with robotic assistance",
+  "grid_width": 18,
+  "grid_height": 12,
+  "layout_type": "Amazon Style",
+  "shelves": [
+    {
+      "x": 1,
+      "y": 1,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 87,
+      "robot_accessible": true
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 25,
+      "robot_accessible": true
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 97,
+      "robot_accessible": true
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 99,
+      "robot_accessible": true
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 79,
+      "robot_accessible": true
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 65,
+      "robot_accessible": true
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 99,
+      "robot_accessible": true
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 58,
+      "robot_accessible": true
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 33,
+      "robot_accessible": true
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 52,
+      "robot_accessible": true
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 51,
+      "robot_accessible": true
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 60,
+      "robot_accessible": true
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 33,
+      "robot_accessible": true
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 96,
+      "robot_accessible": true
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 84,
+      "robot_accessible": true
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 69,
+      "robot_accessible": true
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 90,
+      "robot_accessible": true
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 95,
+      "robot_accessible": true
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 70,
+      "robot_accessible": true
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 68,
+      "robot_accessible": true
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 70,
+      "robot_accessible": true
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 99,
+      "robot_accessible": true
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 99,
+      "robot_accessible": true
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "zone": "books",
+      "capacity": 120,
+      "current_items": 62,
+      "robot_accessible": true
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 45,
+      "robot_accessible": true
+    },
+    {
+      "x": 11,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 23,
+      "robot_accessible": true
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 19,
+      "robot_accessible": true
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 59,
+      "robot_accessible": true
+    },
+    {
+      "x": 12,
+      "y": 1,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 25,
+      "robot_accessible": true
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 60,
+      "robot_accessible": true
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 48,
+      "robot_accessible": true
+    },
+    {
+      "x": 12,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 21,
+      "robot_accessible": true
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 41,
+      "robot_accessible": true
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 69,
+      "robot_accessible": true
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 44,
+      "robot_accessible": true
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 55,
+      "robot_accessible": true
+    },
+    {
+      "x": 14,
+      "y": 1,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 54,
+      "robot_accessible": true
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 37,
+      "robot_accessible": true
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 58,
+      "robot_accessible": true
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 57,
+      "robot_accessible": true
+    },
+    {
+      "x": 15,
+      "y": 1,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 47,
+      "robot_accessible": true
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 16,
+      "robot_accessible": true
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 68,
+      "robot_accessible": true
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 69,
+      "robot_accessible": true
+    },
+    {
+      "x": 16,
+      "y": 1,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 20,
+      "robot_accessible": true
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 46,
+      "robot_accessible": true
+    },
+    {
+      "x": 16,
+      "y": 3,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 23,
+      "robot_accessible": true
+    },
+    {
+      "x": 16,
+      "y": 4,
+      "zone": "electronics",
+      "capacity": 80,
+      "current_items": 15,
+      "robot_accessible": true
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 77,
+      "robot_accessible": true
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 74,
+      "robot_accessible": true
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 65,
+      "robot_accessible": true
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 83,
+      "robot_accessible": true
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 57,
+      "robot_accessible": true
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 71,
+      "robot_accessible": true
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 65,
+      "robot_accessible": true
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 35,
+      "robot_accessible": true
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 76,
+      "robot_accessible": true
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 61,
+      "robot_accessible": true
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 76,
+      "robot_accessible": true
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 23,
+      "robot_accessible": true
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 54,
+      "robot_accessible": true
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 63,
+      "robot_accessible": true
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 30,
+      "robot_accessible": true
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 38,
+      "robot_accessible": true
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 65,
+      "robot_accessible": true
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 41,
+      "robot_accessible": true
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 50,
+      "robot_accessible": true
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 20,
+      "robot_accessible": true
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 30,
+      "robot_accessible": true
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 76,
+      "robot_accessible": true
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 73,
+      "robot_accessible": true
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "zone": "fashion",
+      "capacity": 100,
+      "current_items": 50,
+      "robot_accessible": true
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 68,
+      "robot_accessible": true
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 30,
+      "robot_accessible": true
+    },
+    {
+      "x": 11,
+      "y": 8,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 42,
+      "robot_accessible": true
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 38,
+      "robot_accessible": true
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 54,
+      "robot_accessible": true
+    },
+    {
+      "x": 12,
+      "y": 7,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 21,
+      "robot_accessible": true
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 69,
+      "robot_accessible": true
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 58,
+      "robot_accessible": true
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 64,
+      "robot_accessible": true
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 23,
+      "robot_accessible": true
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 35,
+      "robot_accessible": true
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 68,
+      "robot_accessible": true
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 51,
+      "robot_accessible": true
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 22,
+      "robot_accessible": true
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 68,
+      "robot_accessible": true
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 54,
+      "robot_accessible": true
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 18,
+      "robot_accessible": true
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 67,
+      "robot_accessible": true
+    },
+    {
+      "x": 15,
+      "y": 8,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 68,
+      "robot_accessible": true
+    },
+    {
+      "x": 15,
+      "y": 9,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 51,
+      "robot_accessible": true
+    },
+    {
+      "x": 16,
+      "y": 6,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 51,
+      "robot_accessible": true
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 67,
+      "robot_accessible": true
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 26,
+      "robot_accessible": true
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "zone": "home",
+      "capacity": 90,
+      "current_items": 27,
+      "robot_accessible": true
+    }
+  ],
+  "stations": [
+    {
+      "x": 2,
+      "y": 10,
+      "type": "standard",
+      "capacity": 40
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "type": "prime",
+      "capacity": 25
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "type": "standard",
+      "capacity": 40
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "type": "same_day",
+      "capacity": 20
+    }
+  ],
+  "entry_exit": {
+    "x": 9,
+    "y": 11
+  },
+  "zones": {
+    "books": {
+      "color": "#FFD93D",
+      "items": [
+        "fiction",
+        "non_fiction",
+        "textbooks"
+      ]
+    },
+    "electronics": {
+      "color": "#6BCF7F",
+      "items": [
+        "computers",
+        "accessories",
+        "gaming"
+      ]
+    },
+    "fashion": {
+      "color": "#4D96FF",
+      "items": [
+        "clothing",
+        "jewelry",
+        "watches"
+      ]
+    },
+    "home": {
+      "color": "#FF6B6B",
+      "items": [
+        "kitchen",
+        "bathroom",
+        "bedroom"
+      ]
+    }
+  }
+}
